@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tamule's portfolio</title>
+    <title>Tamule's Portfolio</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -30,19 +30,37 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Tamule"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Tamule's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Tamule"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <h1 class="mb-4">Hi I am Tamule Waites</h1>
-            <h2 class="mb-4">Frontend Developer, based in South Africa.</h2>
+            <h1 class="mb-4">Hi, I’m Tamule Waites</h1>
+            <h2 class="mb-4">Front-end developer based in South Africa</h2>
             <p class="mb-5">
-              Front-end developer that has a passion for coding. I transform beautiful designs into sustainable code.
-               I ensure that the website visitors can easily interact with the page by optimizing the user experience.
-               I create tools that improve site interaction regardless of the browser. In order for the website to be sustainable
-               I regularly fix bugs and test for usability.
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
             </p>
-            <a href="" class="btn btn-branding" id="project-btn">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -50,5 +68,52 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Tamule"
+          >
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:tamulewaites@yahoo.com"
+          class="email-link"
+          title="Email Tamule"
+        >
+          tamulewaites@yahoo.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+            href="https://www.github.com/Tamule"
+            target="_blank"
+            title="GitHub Profile">
+            <i class="fab fa-github"></i>
+          </a>
+        <a href="https://www.linkedin.com/in/tamul%C3%A9-waites-3ba5171bb/" target="_blank"
+          title="Linkedln Profile">
+
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Tamule Waites
+        <a
+          href="https://github.com/Tamule/portfolio-project"
+          target="_blank"
+        >
+        
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
